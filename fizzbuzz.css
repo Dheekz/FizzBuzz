@@ -1,0 +1,95 @@
+body {
+    max-width: 992px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    margin: 10px;
+    color: aliceblue;
+}
+h2 {
+    font-size: 16px;
+    margin: 5px;
+    color: aliceblue
+}
+hr {
+    margin: 3px;
+    color: aliceblue;
+}
+.valuesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.valueBox {
+    display: block;
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+}
+input {
+    width: 70px;
+}
+.buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttonBox {
+    flex-grow: 1;
+    margin: 0px;
+    text-align: center;
+}
+.myButtons {
+    border: 0;
+    line-height: 2.5;
+    padding: 0px 20px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 255);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.myButtons:hover {
+    background-color: rgb(4, 83, 255);
+}
+
+.myButtons:active {
+    box-shadow: inset -2px -2px 3px rgba(0, 255, 179, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+#mainContainer {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: flex-start;
+}
+#element {
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 4px;
+}
+.Empty {
+    background-color: rgb(198, 195, 11);
+}
+.Fizz {
+    background-color: rgb(252, 24, 241);
+}
+.Buzz {
+    background-color: rgb(89, 52, 199);
+}
+.FizzBuzz {
+    background-color: rgb(255, 0, 0);
+}

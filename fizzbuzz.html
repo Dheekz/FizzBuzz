@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FizzBuzz</title>
+    <script src="fizzbuzz.js" defer> </script>
+    <link rel="stylesheet" href="fizzbuzz.css" media="screen">
+</head>
+
+<body>
+    <header>
+        <h1>FIZZ BUZZ</h1>
+    </header>
+    <main>
+        <div class="controls">
+            <hr>
+            <div class="valuesContainer">
+                <div class="valueBox">
+                    <h2>Start value</h2>
+                    <input type="number" min="1" placeholder="0" value="1" step="1" id="startValue"
+                        required>
+                </div>
+                <div class="valueBox">
+                    <h2>End value</h2>
+                    <input type="number" min="1" placeholder="0" value="1" step="1" id="endValue"
+                        required>
+                </div>
+                <div class="valueBox">
+                    <h2>Fizz value</h2>
+                    <input type="number" value="3" id="fizzValue">
+                </div>
+                <div class="valueBox">
+                    <h2>Buzz value</h2>
+                    <input type="number" value="5" id="buzzValue">
+                </div>
+            </div>
+            <hr>
+            <div class="buttonsContainer">
+                <div class="buttonBox">
+                    <button type="submit" id="create" class="myButtons">GET FIZZ BUZZ</button>
+                </div>
+                <div class="buttonBox">
+                    <button type="submit" id="clear" class="myButtons">HAPUS</button>
+                </div>
+                <div class="buttonBox">
+                    <button type="submit" id="reset" class="myButtons">RESTART</button>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="mainContainer"></div>
+    </main>
+</body>
+
+</html>
